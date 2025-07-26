@@ -1,7 +1,5 @@
 # AlumniSphere 功能详解
 
-> 基于项目 `README.md` 文件，对各项核心功能进行详细阐述。
-
 ---
 
 ### **一、 用户认证系统 (注册与登录)**
@@ -75,3 +73,12 @@
 
 - **声音驱动 ``**: 此功能基于目标校友在“个人中心”录制的语音介绍。
 - **模拟语音交流 ``**: 用户可以与这位校友的“AI分身”进行实时的语音对话。
+
+---
+
+### **五、 相关图片**
+
+![Screenshot 1](img/5BFFE3E309F38A57FD0DE3D159123F23.png)
+![Screenshot 2](img/E26D5F20CDACD7EE358F6F60A05A657F.png)
+![Screenshot 3](img/547486076678AA12DE9686874730D458.png)
+![Screenshot 4](img/D65B40A57C63E782454C10BE8F0A1FE2.png)
