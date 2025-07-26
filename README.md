@@ -1,39 +1,52 @@
-# vue-AlumniSphere
+# vue-AlumniSphere 同学录系统
 
-This template should help get you started developing with Vue 3 in Vite.
+> 基于 Vue 3 + Vite 开发的现代化同学录平台，支持校友信息展示、地图定位、智能问答等多种功能。
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 项目简介
 
-## Type Support for `.vue` Imports in TS
+AlumniSphere 是一个为校友打造的互动平台，集成了同学录、地图定位、未来寄语、语音交互、智能问答等多种功能，方便记录毕业班级的回忆。
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 主要页面与功能
 
-## Customize configuration
+- **注册/登录（RegisterView/LoginView）**：新用户注册、老用户登录。
+- **首页（HomeView）**：展示平台简介、公告、快捷入口等。
+- **同学录（AllAlumniesView）**：以卡片展示的形式，浏览所有校友信息，可按条件筛选、搜索。
+- **个人介绍（UserInformationView）**：查看校友个人信息，还可与 TA 进行语音交流。
+- **校友地图（MapView）**：在地图上查看校友分布，点击可查看详细信息。
+- **个人中心（ProfileView）**：查看和编辑个人资料、头像、语音介绍等。
+- **未来寄语（FutureView）**：给未来的自己留言。
+- **智能问答（SmartqView）**：AI 问答，支持校友相关问题以及大学相关的问题的智能解答。
+- **Callta（CalltaView）**：与 TA 对话，基于 TA 录制的声音，与 TA 进行语音交流。
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 如何使用
 
-## Project Setup
+1. **注册与登录**
 
-```sh
-npm install
-```
+    - 新用户点击“注册”，填写信息后即可登录。
+    - 已有账号可直接登录。
 
-### Compile and Hot-Reload for Development
+2. **编辑个人资料**
 
-```sh
-npm run dev
-```
+    - 在“个人中心”可编辑头像、昵称、联系方式、语音介绍等。
+    - 注意，新注册用户应该先填写个人资料再使用其它功能。
 
-### Type-Check, Compile and Minify for Production
+3. **地图查看校友**
 
-```sh
-npm run build
-```
+    - 进入“校友地图”，可在地图上查看校友分布，点击地图上的标记可查看详细资料。
+    - 还可以点击右上角按钮进入“同学录”界面，以卡片形式展示同学们的信息。
 
-### Lint with [ESLint](https://eslint.org/)
+4. **浏览个人介绍页**
 
-```sh
-npm run lint
-```
+    - 进入“个人介绍”页面，可浏览该校友信息。
+    - 可以基于 TA 录制的声音，与 TA 进行语音交流。
+
+5. **未来寄语**
+
+    - 在“未来寄语”页面给未来的自己写信。
+    - 能查看已启封和未启封的信件。
+
+6. **智问**
+    - 从页面的悬浮球进入，可在“智问”页面体验 AI 问答。
+    - 能对校友相关问题以及大学相关的问题的智能解答。
